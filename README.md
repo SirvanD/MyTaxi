@@ -16,7 +16,7 @@ MyTaxi is an Uber inspired mobile application, where based on origin and destina
 - React Native Google Places Autocomplete
 - Tailwind CSS (Tailwind React Native Classnames)
 
-## Instruction: How to run, install and test
+## Instruction: How to install and run
 
 - Xcode and Android studio are required to run the app on your machine, or you can scan the QR code provided by Expo to launch on your iOS device.
 - Clone the project by `git clone https://github.com/SirvanD/MyTaxi.git` <br/>
