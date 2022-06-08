@@ -35,5 +35,5 @@ MyTaxi is an Uber inspired mobile application, where based on origin and destina
 
 ## App Screenshots
 
-![Screenshot](public/PTSS.png)
+![Screenshot](assets/homepage.png) ![Screenshot](assets/Autocompletion.png) ![Screenshot](assets/Destination.png)
 
