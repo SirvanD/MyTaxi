@@ -3,7 +3,7 @@ import React from "react";
 import tw from "twrnc";
 import NavOptions from "../components/NavOptions";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
-import { GOOGLE_MAPS_APIKEY } from "@env";
+import { GOOGLE_MAPS_API_KEY } from "@env";
 
 const HomeScreen = () => {
   return (
@@ -17,6 +17,13 @@ const HomeScreen = () => {
           }}
           source={require("../assets/logo.png")}
         />
+
+        <GooglePlacesAutocomplete
+          placeholder="400"
+          nearbyPlacesAPI="GooglePlacesSearch"
+          debounce={400}
+        />
+
         <NavOptions />
       </View>
     </SafeAreaView>
