@@ -5,7 +5,7 @@
 
 MyTaxi is an Uber inspired mobile application, where based on origin and destination information provided by user, will show markers and the path from origin to target.
 
-![Screenshot](assets/homepage.png ![Screenshot](assets/Destination.png)
+![Screenshot](assets/homepage.png)![Screenshot](assets/Destination.png)
 ## Tech stack
 
 - React Native (Expo) <br/>
