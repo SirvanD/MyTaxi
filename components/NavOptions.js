@@ -8,6 +8,8 @@ import {
 } from "react-native";
 import React from "react";
 import tw from "twrnc";
+// import { Icon } from "@rneui/base";
+import { Icon } from "react-native-elements";
 // import { FlatList } from "react-native-web";
 
 const data = [
@@ -41,6 +43,12 @@ const NavOptions = () => {
               source={{ uri: item.image }}
             />
             <Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
+            <Icon
+              style={tw`p-2 bg-black rounded-full w-10 mt-4`}
+              name="arrowright"
+              color="white"
+              type="antdesign"
+            />
           </View>
         </TouchableOpacity>
       )}
