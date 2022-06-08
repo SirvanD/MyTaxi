@@ -14,7 +14,7 @@ MyTaxi is an Uber inspired mobile application, where based on origin and destina
 - Google Maps Directions Api
 - Google Maps Places API
 - React Native Google Places Autocomplete
-- Tailwind CSS (Twilwind React Native Classnames)
+- Tailwind CSS (Tailwind React Native Classnames)
 
 ## Instruction: How to run, install and test
 
@@ -24,6 +24,7 @@ MyTaxi is an Uber inspired mobile application, where based on origin and destina
 - To run the application run `expo start`
 - If you have Xcode installed, click option "Run on iOS simulator"
 - You can also scan the QR code on your phone if your device is on the same network as your machine.
+- Please replace GOOGLE_MAPS_APIKEY with your own key with these APIS enabled: Google Maps Directions Api ,Google Maps Directions Api
 
 
 ## Bugs and Future Work
