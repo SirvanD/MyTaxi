@@ -15,6 +15,7 @@ MyTaxi is an Uber inspired mobile application, where based on origin and destina
 - Google Maps Places API
 - React Native Google Places Autocomplete
 - Tailwind CSS (Tailwind React Native Classnames)
+- Adobe Express Logo Maker
 
 ## Instruction: How to install and run
 
