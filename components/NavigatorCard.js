@@ -5,15 +5,16 @@ import {
   SafeAreaView,
   TouchableOpacity,
 } from "react-native";
-import React from "react";
-import tw from "twrnc";
-import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import { GOOGLE_MAPS_APIKEY } from "@env";
+import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
+import { Icon } from "react-native-elements";
 import { useDispatch } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
+import React from "react";
+import tw from "twrnc";
+
 import { setDestination } from "../slices/navSlice";
 import NavFavorites from "./NavFavorites";
-import { Icon } from "react-native-elements";
 
 const NavigatorCard = () => {
   const dispatch = useDispatch();
