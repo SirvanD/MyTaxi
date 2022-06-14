@@ -6,7 +6,7 @@ const initialState = {
   travelTimeInformation: null,
 };
 
-//design slice for store
+//design slice and selectors for store
 export const navSlice = createSlice({
   name: "nav",
   initialState,
